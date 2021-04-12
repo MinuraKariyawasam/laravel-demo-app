@@ -18,8 +18,8 @@
         <h3>thank you bro!!</h3>
     @endunless --}}
 
-    @php
+    {{-- @php
      echo "hello php"   
-    @endphp
+    @endphp --}}
 </body>
 </html>
