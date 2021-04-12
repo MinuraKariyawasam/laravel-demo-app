@@ -21,5 +21,14 @@
     {{-- @php
      echo "hello php"   
     @endphp --}}
+
+        {{-- @unless ($name == 'pizzal')
+        <h3>thank you bro!!</h3>
+    @endunless --}}
+
+    {{-- @php
+     echo "hello php"   
+    @endphp --}}
+</body>
 </body>
 </html>
