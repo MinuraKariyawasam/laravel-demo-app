@@ -14,9 +14,9 @@
         <h2>theres no such pizza</h2>
     @endif
 
-    @unless ($name == 'pizzal')
+    {{-- @unless ($name == 'pizzal')
         <h3>thank you bro!!</h3>
-    @endunless
+    @endunless --}}
 
     @php
      echo "hello php"   
