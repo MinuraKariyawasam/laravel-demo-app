@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Welcome</title>
+        <title>Order</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,7 +25,7 @@
             <div class="max-w-xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex items-center pt-8 sm:justify-start sm:pt-0">
                     <div class="ml-4 text-lg text-gray-500 uppercase tracking-wider">
-                        Welcome
+                        Order - {{ $id }}
                     </div>
                 </div>
             </div>

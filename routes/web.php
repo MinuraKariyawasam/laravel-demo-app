@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/app/{id}', function ($id) {
-    return view('layout.layout', ['id' => $id]);
-});
+Route::get('/order', [OrderController::class, 'index']); 
+
+Route::get('/order/{id}', [OrderController::class, 'show']); 
 
 
 
