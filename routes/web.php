@@ -14,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/app', function () {
-    $pizza_list = [
-        'id' => 1,
-        'name' => 'pizza'
-    
-    ];
-    return view('layout.layout', $pizza_list);
+Route::get('/app/{id}', function ($id) {
+    return view('layout.layout', ['id' => $id]);
 });
+
+
+
